@@ -6,7 +6,6 @@ import FlexCol from "@/components/flex-col";
 import Hyperlink from "@/components/hyperlink";
 import Linkedin from "@/icons/linkedin";
 import links from "@/constants/links.json";
-import img from "../../../../imgs/selfie.jpg";
 import "./hero.style.scss";
 import { ClassNames } from "@/modules/classNames";
 
@@ -59,7 +58,7 @@ function HeroSection() {
           <FlexCol xs={24} sm={24} md={6} center={true}>
             <div className={CN.generate("image")}>
               <figure>
-                <img src={img} alt="Kyle Li" />
+                <img src={"/selfie.jpeg"} alt="Kyle Li" />
               </figure>
             </div>
           </FlexCol>

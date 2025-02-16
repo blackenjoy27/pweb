@@ -13,13 +13,13 @@ function MediumSection() {
   const [items, setItems] = useState([
     {
       link: "https://frontend-17dulzzug-blackenjoy27.vercel.app/",
-      image: `${potluck}`,
+      image: `/potluck.png`,
       title: "Potluck Planner",
       description: "An web app helps organize potluck events~",
     },
     {
       link: "https://use-my-tech-fe-blackenjoy27.vercel.app/",
-      image: `${usemytech}`,
+      image: `/usemytech.png`,
       title: "Use My Tech",
       description: "An web app helps renting devices~",
     },
